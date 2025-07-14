@@ -1,0 +1,111 @@
+/* Styling for the container of favorite properties */
+.favourites {
+  padding: 10px;
+  border-left: 1px solid #b6b5b5;
+  background-color: black;
+  max-width: 380px; 
+  height: auto;
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+/* Styling for the heading within the favorites container */
+.favourites h2{
+  color: #1fea00;
+}
+
+/* Styling for individual favorite property items */
+.favProp {
+  background-color: #1fea00;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 90%; 
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+  border-color: black;
+}
+
+/* Styling for images within favorite property items */
+.favProp img {
+  width: 200px; 
+  height: 100px; 
+  margin-bottom: 10px; 
+  border-radius: 5px;
+}
+
+/* Styling for information within favorite property items */
+.propInfo {
+  font-size: 0.8rem; 
+}
+
+/* Styling for truncated property descriptions within favorites */
+.propInfo .propDescription-fav {
+  display: none; 
+}
+
+/* Styling for titles within favorite property items */
+.propInfo .propTitle {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+/* Styling for "View Details" button within favorite property items */
+.viewDetails {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+}
+
+/* Styling for "Remove" button within favorite property items */
+.removeButton {
+  margin-top: 10px;
+  background-color: #ff0000;
+}
+
+/* Hover effect for "Remove" button within favorite property items */
+.removeButton:hover {
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  color: #ff0000;
+}
+
+/* Styling for "Clear All" button within favorites */
+.deleteAll {
+  color: rgb(255, 0, 0);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* Styling for icon within "Clear All" button */
+.deleteAll i {
+  margin-right: 5px;
+}
+
+/* Hover effect for "Clear All" button within favorites */
+.deleteAll:hover {
+  border: solid 1px #ff0000;
+}
+
+/* Styling for input field within favorites */
+.favourites input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

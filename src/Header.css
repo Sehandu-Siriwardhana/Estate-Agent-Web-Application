@@ -1,0 +1,98 @@
+/* Styling for the site header */
+.siteHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000000;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styling for the logo within the site header */
+.siteHeader .logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the logo image within the site header */
+.siteHeader .logo img {
+    height: 50px;
+}
+
+/* Styling for the logo heading within the site header */
+.siteHeader .logo h1 {
+    margin-left: 10px;
+    color: #1fea00;
+}
+
+/* Styling for the search bar input */
+.search-bar input {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Styling for the search bar button */
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1fea00;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styling for the favorites button */
+.favourites button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px; 
+}
+
+/* Styling for the image within the favorites button */
+.favourites button img {
+    width: 50px; 
+    height: auto; 
+}
+
+/* Styling for the search container */
+.searchContainer {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 10px;
+    width: 70%;
+}
+
+/* Styling for the search input */
+.searchInput {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+    width: 350px;
+}
+
+/* Styling for the focused state of the search input */
+.searchInput:focus {
+    border-color: #1fea00;
+}
+
+/* Styling for the advanced search button */
+.advButton {
+    margin: 10px 0;
+    padding: 8px 16px;
+    background-color: #1fea00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for the advanced search button */
+.advButton:hover {
+    background-color: #27a102;
+}

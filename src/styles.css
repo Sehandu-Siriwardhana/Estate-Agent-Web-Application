@@ -1,0 +1,35 @@
+/* Setting the font family and default text color for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Centering the text within the app class */
+.app {
+    text-align: center;
+}
+
+/* Adding margin to forms for better spacing */
+form {
+    margin: 20px 0;
+}
+
+/* Styling for the property list container */
+.propList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styling for individual property items */
+.property {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Styling for images within property items */
+.property img {
+    max-width: 100%;
+    height: auto;
+}

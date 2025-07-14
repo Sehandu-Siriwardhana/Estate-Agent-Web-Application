@@ -1,0 +1,46 @@
+/* Styles for the container that holds the advanced search elements */
+.advsearch-container {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+/* Styles for the heading of the advanced search section */
+.advsearch-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+/* Styles for the form in the advanced search section */
+.advsearch-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+/* Styles for input fields and the search button within the advanced search form */
+.advsearch-form input,
+.advsearch-form .searchButton {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block; /* Ensures input and button elements are on separate lines */
+}
+
+/* Styles specifically for the search button in the advanced search form */
+.advsearch-form .searchButton {
+    background-color: #1fea00; /* Background color when not hovered */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+/* Styles for the search button when hovered */
+.advsearch-form .searchButton:hover {
+    background-color: #27a102; /* Background color when hovered */
+}
